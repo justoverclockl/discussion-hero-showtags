@@ -4,6 +4,9 @@
 
 A [Flarum](http://flarum.org) extension. Show Tag List into Discussion Hero
 
+![tags](https://user-images.githubusercontent.com/79002016/133661326-08252263-0b63-4fe0-950c-029994ea7c29.png)
+
+
 ## Installation
 
 Install with composer:
