@@ -16,7 +16,6 @@ app.initializers.add('justoverclock/discussion-hero-showtags', () => {
                     },
                     tagsLabel(app.store.all('tags'), {
                         link: true,
-                      children: false,
                         className: 'tagExt',
                     })
                 ),
