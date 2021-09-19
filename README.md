@@ -19,12 +19,10 @@ composer require justoverclock/discussion-hero-showtags:"*"
 
 ```sh
 composer update justoverclock/discussion-hero-showtags:"*"
-php flarum migrate
 php flarum cache:clear
 ```
 
 ## Links
 
 - [Packagist](https://packagist.org/packages/justoverclock/discussion-hero-showtags)
-- [GitHub](https://github.com/justoverclock/discussion-hero-showtags)
-- [Discuss](https://discuss.flarum.org/d/PUT_DISCUSS_SLUG_HERE)
+- [GitHub](https://github.com/justoverclockl/discussion-hero-showtags)
