@@ -8,7 +8,7 @@ app.initializers.add('justoverclock/discussion-hero-showtags', () => {
         items.add(
             'allTags',
             m('div', { className: 'contTags' }, [
-                m('div', { className: 'text4tags' }, app.translator.trans('justoverclock-discussion-hero-showtags.forum.jumpTo')),
+                m('div', { className: 'text4tags' }, app.translator.trans('justoverclock-discussion-hero-showtags.forum.jumpTo') + ':'),
                 m(
                     'div',
                     {
@@ -16,6 +16,7 @@ app.initializers.add('justoverclock/discussion-hero-showtags', () => {
                     },
                     tagsLabel(app.store.all('tags'), {
                         link: true,
+                      children: false,
                         className: 'tagExt',
                     })
                 ),
