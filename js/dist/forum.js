@@ -125,11 +125,15 @@ __webpack_require__.r(__webpack_exports__);
 flarum_forum_app__WEBPACK_IMPORTED_MODULE_0___default.a.initializers.add('justoverclock/discussion-hero-showtags', function () {
   Object(flarum_common_extend__WEBPACK_IMPORTED_MODULE_1__["extend"])(flarum_forum_components_DiscussionHero__WEBPACK_IMPORTED_MODULE_2___default.a.prototype, 'items', function (items) {
     items.add('allTags', m('div', {
+      className: 'contTags'
+    }, [m('div', {
+      className: 'text4tags'
+    }, flarum_forum_app__WEBPACK_IMPORTED_MODULE_0___default.a.translator.trans('justoverclock-discussion-hero-showtags.forum.jumpTo')), m('div', {
       className: 'heroTagsExt'
     }, flarum_tags_helpers_tagsLabel__WEBPACK_IMPORTED_MODULE_3___default()(flarum_forum_app__WEBPACK_IMPORTED_MODULE_0___default.a.store.all('tags'), {
       link: true,
       className: 'tagExt'
-    })));
+    }))]));
   });
 });
 
